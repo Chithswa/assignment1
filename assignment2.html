@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Recipe Website</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:  #e1c5f9;
+  color: #333;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color:  #e1c5f9;
+  color: #0c0c0c;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #080808;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  background: url('https://source.unsplash.com/1600x1000/?night') no-repeat center center/cover;
+  color: #fdfdfd;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 50%;
+}
+
+.main h2 {
+  margin-bottom: 10px;
+}
+
+.places-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.places {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 20px);
+  text-align: center;
+}
+
+.places img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.places h3 {
+  margin: 15px 0;
+}
+
+.places p {
+  margin-bottom: 15px;
+}
+
+.places a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.places a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color:  #e1c5f9;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .places-list {
+    flex-direction: column;
+  }
+
+  .places {
+    flex: 1 1 100%;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn1{
+    position: absolute;
+  right:-20px;
+  top: -20px;
+  padding: 10px 20px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.div1 {
+  width: 100% !important;
+}
+
+.nav-1 {
+  top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #e1c5f9;
+  padding: 5px;
+  width: 100%;
+}
+    </style>
+</head>
+<body>
+<div class="div1">
+  <header>
+    <div class="flex">
+      <h1>Tourist Places</h1>
+      <nav class="nav-1">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <button class="btn1">X</button>
+    </div>
+  </header>
+</div>
+    
+<main>
+  <section class="main">
+    <h2>Find the Perfect Thr Perfecct PlacesFor Vacation</h2>
+    <p>Your Journey Bigins Here.</p>
+  </section>
+
+  <section class="places-list">
+    <article class="places">
+      <img src="https://source.unsplash.com/1600x1000/?Goa" alt="Goa">
+      <h3>GOA</h3>
+      <p>Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda. Goa is visited by large numbers of  tourists </p>
+      <nav>
+      <a href="https://www.google.co.in/search?sca_esv=165fe744f339cdec&sxsrf=ADLYWILyDu-Aqmff-zk70Abh9B7p73wgyQ:1717652559125&q=Goa&stick=H4sIAAAAAAAAAONgFuLQz9U3MC7KNlDiBLEMkw3zcrUUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4ESuze34iAIlsjE5AAAAA&sa=X&ved=2ahUKEwjDiom1osaGAxWiR2wGHd2mDAQQ2coHegQIGBAD&biw=1366&bih=633&dpr=1">Click here for more informations</a>
+    </nav>
+    </article>
+
+    <article class="places">
+      <img src="https://source.unsplash.com/1600x1000/?ooty" alt="ooty">
+      <h3>OOTY</h3>
+      <p>Ooty (short for Udhagamandalam) is a resort town in the Western Ghats mountains, in southern India's Tamil Nadu state. Founded as a British Raj summer resort, it retains a working steam railway line. Other reminders of its colonial past include Stone House, a 19th-century residence, and the circa-1829 St. Stephen’s Church. Its 55-acre Government Botanical Garden lies on the slopes of Doddabetta Peak</p>
+      <nav>
+        <a href="https://www.google.co.in/search?sca_esv=165fe744f339cdec&sxsrf=ADLYWILyDu-Aqmff-zk70Abh9B7p73wgyQ:1717652559125&q=Ooty&stick=H4sIAAAAAAAAAONgFuLQz9U3MC7KNlDiBrEMjfIssjOKtRSzk630c_KTE0sy8_PgDKvEkpKixGQQs3gRK4t_fkklAEKiuApDAAAA&sa=X&ved=2ahUKEwjDiom1osaGAxWiR2wGHd2mDAQQ2coHegQIFhAD&biw=1366&bih=633&dpr=1">Click here for more informations</a>
+      </nav>
+    </article>
+
+    <article class="places">
+      <img src="https://source.unsplash.com/1600x1000/?munnar" alt="MUNNAR">
+      <h3>MUNNAR</h3>
+      <p>Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations established in the late 19th century. Eravikulam National Park, a habitat for the endangered mountain goat Nilgiri tahr, is home to the Lakkam Waterfalls, hiking trails and 2,695m-tall Anamudi Peak.</p>
+      <nav>
+        <a href="https://www.google.co.in/search?sca_esv=165fe744f339cdec&sxsrf=ADLYWILyDu-Aqmff-zk70Abh9B7p73wgyQ:1717652559125&q=Munnar&stick=H4sIAAAAAAAAAONgFuLQz9U3MC7KNlDiBLEMi8qykrQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4ESubb2leXmIRAOd-o8hDAAAA&sa=X&ved=2ahUKEwjDiom1osaGAxWiR2wGHd2mDAQQ2coHegQIFRAD">Click here for more informations</a>
+      </nav>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 BEST TOURIST PLACES. All rights reserved.</p>
+</footer>
+</body>
+</html>
